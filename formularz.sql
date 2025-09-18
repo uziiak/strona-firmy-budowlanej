@@ -1,0 +1,7 @@
+CREATE TABLE wiadomosci (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    imie VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    wiadomosc TEXT NOT NULL,
+    data_wyslania DATETIME DEFAULT CURRENT_TIMESTAMP
+);
